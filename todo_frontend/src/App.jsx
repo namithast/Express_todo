@@ -6,7 +6,7 @@ function App() {
     const [taskInput, setTaskInput] = useState("");
     const [editTaskId, setEditTaskId] = useState(null);
     const [editTaskInput, setEditTaskInput] = useState("");
-    const BASE_URL = "https://mern-todo-main.onrender.com";
+    const BASE_URL = "https://express-todo-k51x.onrender.com";
     const getTasks = () => {
       axios.get(`${BASE_URL}`)
             .then(res => setTasks(res.data))
