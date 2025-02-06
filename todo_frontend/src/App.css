@@ -1,0 +1,139 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f4f7fa;
+  font-size: 16px;
+  color: #3c4a9a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #3c4a9a;
+}
+
+
+#div_style {
+  background-color: #fff;
+  width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Apply shadow here */
+  text-align: center;
+}
+
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #5c6bc0;
+  outline: none;
+}
+
+input[type="submit"] {
+  background-color: #5c6bc0;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  font-size: 1rem;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e4e92;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background-color: #fafafa;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.3s ease;
+  border: 1px solid #ddd; /* Add border instead of box-shadow */
+}
+
+li:hover {
+  transform: scale(1.02);
+}
+
+button {
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 0.9rem;
+}
+
+button:hover {
+  background-color: #ba4a3d;
+}
+
+
+form input[type="text"] {
+  width: 100%;
+  margin-right: 10px;
+}
+
+form button {
+  width: 35%;
+  background-color: #3e4e92;
+}
+
+form input[type="text"], form button {
+  margin-bottom: 10px;
+}
+
+form button[type="submit"] {
+  background-color: #5c6bc0;
+  width: 100%;
+}
+
+
+form {
+  margin-bottom: 30px;
+}
+
+form input[type="submit"] {
+  margin-top: 10px;
+}
+
+h2 {
+  color: #888;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
